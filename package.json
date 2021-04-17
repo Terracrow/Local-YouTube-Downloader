@@ -1,0 +1,28 @@
+{
+  "name": "local-youtube-downloader",
+  "version": "1.0.0",
+  "description": "Download your favorites content from YouTube",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terracrow/Local-YouTube-Downloader.git"
+  },
+  "keywords": [
+    "youtube",
+    "mp3",
+    "youtubemp3"
+  ],
+  "author": "Terracrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terracrow/Local-YouTube-Downloader/issues"
+  },
+  "homepage": "https://github.com/Terracrow/Local-YouTube-Downloader#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^4.5.0"
+  }
+}

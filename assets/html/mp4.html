@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Local YouTube Downloader</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav">
+      <h3>Local YouTube Downloader</h3>
+      <ul>
+        <li><a href="/"">Download MP3</a></li>
+        <li><a href="#" onclick="window.open('https://www.youtube.com')">Search on YouTube</a></li>
+        <li><a href="/api/">Local API</a></li>
+        <li><a href="https://github.com/Terracrow/Local-YouTube-Downloader">Github</a></li>
+      </ul>
+    </div>
+    <div class="downloader-box">
+      <form class="downloader-form" action="/api/callback/output/video/mp4" method="get">
+        <h1>Paste YouTube URL (MP4 version)</h1>
+        <input id="url-input" name="url" placeholder="Video url (https://youtu.be | https:/www.youtube.com/)">
+        <button type="submit">Continue</button>
+      </form>
+    </div>
+  </body>
+</html>
