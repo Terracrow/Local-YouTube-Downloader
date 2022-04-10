@@ -1,4 +1,4 @@
-# Local-YouTube-Downloader
+# Local-YouTube-Downloader (LYD)
 **Download your favorites YouTube videos to mp3/ mp4 with the YouTube API**
 
 # Usage
